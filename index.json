@@ -1,5 +1,5 @@
 {
-  "version": 1,
+  "version": 2,
   "categories": [
     {
       "id": "constitutional",
@@ -17,14 +17,14 @@
           "title": "القانون العضوي المتعلق بالتنظيم القضائي (22-10)",
           "file": "judicial_organization.pdf",
           "icon": "balance",
-          "available": false
+          "available": true
         },
         {
           "id": "magistracy_statute",
           "title": "القانون الأساسي للقضاء",
           "file": "magistracy_statute.pdf",
           "icon": "gavel",
-          "available": false
+          "available": true
         },
         {
           "id": "high_judicial_council",
@@ -51,19 +51,19 @@
           "title": "قانون العقوبات (الأمر 66-156)",
           "file": "Penal_code.pdf",
           "icon": "gavel",
-          "available": true
+          "available": false
         },
         {
           "id": "penal_procedure",
           "title": "قانون الإجراءات الجزائية (الأمر 66-155)",
-          "file": "Pr.Penal_code.pdf",
+          "file": "penal_procedure.pdf",
           "icon": "rule",
           "available": true
         },
         {
           "id": "civil_admin_procedure",
           "title": "قانون الإجراءات المدنية والإدارية (08-09)",
-          "file": "Pr.c.ad_code.pdf",
+          "file": "civil_admin_procedure.pdf",
           "icon": "description",
           "available": true
         },
@@ -111,30 +111,30 @@
         {
           "id": "prisons",
           "title": "قانون تنظيم السجون وإعادة الإدماج (05-04)",
-          "file": "prisons_law.pdf",
+          "file": "prisons.pdf",
           "icon": "lock",
-          "available": false
+          "available": true
         },
         {
           "id": "child_protection",
           "title": "قانون حماية الطفل (15-12)",
           "file": "child_protection.pdf",
           "icon": "child_care",
-          "available": false
+          "available": true
         },
         {
           "id": "anti_corruption",
           "title": "قانون الوقاية من الفساد ومكافحته (06-01)",
           "file": "anti_corruption.pdf",
           "icon": "shield",
-          "available": false
+          "available": true
         },
         {
           "id": "drugs",
           "title": "قانون الوقاية من المخدرات والمؤثرات العقلية (04-18)",
           "file": "drugs_law.pdf",
           "icon": "medication",
-          "available": false
+          "available": true
         },
         {
           "id": "cybercrime",
@@ -168,28 +168,28 @@
           "title": "قانون الجنسية (70-86)",
           "file": "nationality.pdf",
           "icon": "flag",
-          "available": false
+          "available": true
         },
         {
           "id": "land_orientation",
           "title": "قانون التوجيه العقاري (90-25)",
           "file": "land_orientation.pdf",
           "icon": "landscape",
-          "available": false
+          "available": true
         },
         {
           "id": "urbanism",
           "title": "قانون التهيئة والتعمير (90-29)",
           "file": "urbanism.pdf",
           "icon": "location_city",
-          "available": false
+          "available": true
         },
         {
           "id": "state_property",
           "title": "قانون الأملاك الوطنية (90-30)",
           "file": "state_property.pdf",
           "icon": "business",
-          "available": false
+          "available": true
         },
         {
           "id": "land_registry",
@@ -209,21 +209,28 @@
           "title": "قانون البلدية (11-10)",
           "file": "commune_law.pdf",
           "icon": "domain",
-          "available": false
+          "available": true
         },
         {
           "id": "wilaya",
           "title": "قانون الولاية (12-07)",
           "file": "wilaya_law.pdf",
           "icon": "map",
-          "available": false
+          "available": true
         },
         {
           "id": "public_procurement",
           "title": "قانون الصفقات العمومية (المرسوم الرئاسي 15-247)",
           "file": "public_procurement.pdf",
           "icon": "request_quote",
-          "available": false
+          "available": true
+        },
+        {
+          "id": "public_service",
+          "title": "القانون الأساسي العام للوظيفة العمومية (الأمر 06-03)",
+          "file": "fonction.publique_code.pdf",
+          "icon": "assignment_ind",
+          "available": true
         }
       ]
     },
@@ -270,14 +277,21 @@
           "title": "قانون الضرائب المباشرة والرسوم المماثلة",
           "file": "direct_taxes.pdf",
           "icon": "payments",
-          "available": false
+          "available": true
+        },
+        {
+          "id": "indirect_taxes",
+          "title": "قانون الضرائب غير المباشرة",
+          "file": "indirect_taxes.pdf",
+          "icon": "payments",
+          "available": true
         },
         {
           "id": "turnover_tax",
           "title": "قانون الرسم على رقم الأعمال",
           "file": "turnover_tax.pdf",
           "icon": "request_quote",
-          "available": false
+          "available": true
         },
         {
           "id": "customs",
@@ -311,21 +325,21 @@
           "title": "القانون البحري (76-80)",
           "file": "maritime_law.pdf",
           "icon": "directions_boat",
-          "available": false
+          "available": true
         },
         {
           "id": "competition",
           "title": "قانون المنافسة",
           "file": "competition_law.pdf",
           "icon": "balance",
-          "available": false
+          "available": true
         },
         {
           "id": "commercial_practices",
           "title": "قانون الممارسات التجارية",
           "file": "commercial_practices.pdf",
           "icon": "shopping_cart",
-          "available": false
+          "available": true
         },
         {
           "id": "consumer_protection",
